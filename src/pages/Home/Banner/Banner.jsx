@@ -11,12 +11,14 @@ const Banner = () => {
         <div className="carousel w-full h-[600px]">
             <div id="slide1" className="carousel-item relative w-full">
                 <img src={img1} className="w-full" />
-                <div className="absolute h-full flex flex-col justify-center w-1/2 space-y-7 text-white bg-gradient-to-r from-[#111] to-[#07070700] p-12">
-                    <h2 className="text-6xl font-bold">Affordable Price For Car Servicing</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, ipsa dolor nihil ipsam accusamus magnam odio?</p>
-                    <div>
-                        <button className="btn btn-primary me-5">Discover More</button>
-                        <button className="btn btn-outline btn-secondary">Latest Project</button>
+                <div className="absolute h-full flex items-center w-2/3 space-y-7 text-white bg-gradient-to-r from-[#111] to-[#07070700] p-12">
+                    <div className='w-2/3 space-y-7'>
+                        <h2 className="text-6xl font-bold">Affordable Price For Car Servicing</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, ipsa dolor nihil ipsam accusamus magnam odio?</p>
+                        <div>
+                            <button className="btn btn-primary me-5">Discover More</button>
+                            <button className="btn btn-outline btn-secondary">Latest Project</button>
+                        </div>
                     </div>
                 </div>
                 <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
